@@ -49,7 +49,7 @@ app.post("/send-email", async (req, res) => {
 
     // Set up email options
     const mailOptions = {
-      from: 'amberdotdesign@gmail.com',
+      from: 'example@a.com',
       to, 
       subject,
       text 
