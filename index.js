@@ -22,6 +22,9 @@ const nodemailer = require("nodemailer");
 const app = express();
 
 // ... your existing GET request ...
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
 
 // Email Sending Functionality
 app.post("/send-email", async (req, res) => {
